@@ -15,4 +15,10 @@ for i in range(9):
 number_array[blank_number] = '..'
 print('What number is missing in the progression?')
 print(number_array)
+userAnswer = int(input())
+if userAnswer == base_number * progression_number ** blank_number:
+    print('Correct!')
+else:
+    print('Incorrect!')
+    print('Expected number:', base_number * progression_number ** blank_number)
 
