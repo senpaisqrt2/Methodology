@@ -15,7 +15,7 @@ def main():
 
     if ChosenGame == 'NOK':
         for n in range(0, 3):
-            NOD.nok(name)
+            NOD.nok()
     elif ChosenGame == 'GeomProg':
         for n1 in range(0, 3):
             GeomProg.geomProg()

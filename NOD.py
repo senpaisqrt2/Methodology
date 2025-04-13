@@ -1,4 +1,4 @@
-def nok(name):
+def nok():
     import random
     import math
     print('\nFind the smallest common multiple of given numbers.')
@@ -18,4 +18,3 @@ def nok(name):
     elif answer != expAnswer:
         print('Your answer:', answer)
         print(answer, 'is wrong answer ;( Correct answer was', expAnswer)
-        print('Let\'s try again, ' + name)
