@@ -1,0 +1,51 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250413163526
+Username: BIRIBIRILAPTOP\nexti
+RunAs User: BIRIBIRILAPTOP\nexti
+Configuration Name: 
+Machine: BIRIBIRILAPTOP (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File C:\Program Files\JetBrains\PyCharm 2024.2.3\plugins\terminal\shell-integrations\powershell\powershell-integration.ps1
+Process ID: 17484
+PSVersion: 5.1.19041.5607
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5607
+BuildVersion: 10.0.19041.5607
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is session.log
+(.venv) PS C:\Users\nexti\Desktop\Uni\3course\2ndHalf\Meth\Laba 1>
+PS>python main.py
+John
+Hello John
+
+What game do you wish to play?
+Choose NOK or GeomProg
+NOK
+
+Find the smallest common multiple of given numbers.
+Question: 14 8 10
+1120
+Your answer: 1120
+1120 is wrong answer ;( Correct answer was 280
+
+Find the smallest common multiple of given numbers.
+Question: 10 11 4
+220
+Your answer: 220
+Correct!
+
+Find the smallest common multiple of given numbers.
+Question: 11 1 4
+44
+Your answer: 44
+Correct!
+(.venv) PS C:\Users\nexti\Desktop\Uni\3course\2ndHalf\Meth\Laba 1>
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250413163654
+**********************

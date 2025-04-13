@@ -1,0 +1,49 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250413163732
+Username: BIRIBIRILAPTOP\nexti
+RunAs User: BIRIBIRILAPTOP\nexti
+Configuration Name: 
+Machine: BIRIBIRILAPTOP (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File C:\Program Files\JetBrains\PyCharm 2024.2.3\plugins\terminal\shell-integrations\powershell\powershell-integration.ps1
+Process ID: 5920
+PSVersion: 5.1.19041.5607
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5607
+BuildVersion: 10.0.19041.5607
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is session.log
+(.venv) PS C:\Users\nexti\Desktop\Uni\3course\2ndHalf\Meth\Laba 1>
+PS>python main.py
+Welcome to the Brain Games!
+
+May I have your name?
+John
+Hello John
+
+What game do you wish to play?
+Choose NOK or GeomProg
+GeomProg
+What number is missing in the progression?
+[5, 20, 80, 320, '..', 5120, 20480, 81920, 327680, 1310720]
+1280
+Correct!
+What number is missing in the progression?
+[2, 4, 8, 16, '..', 64, 128, 256, 512, 1024]
+32
+Correct!
+What number is missing in the progression?
+[4, 12, 36, 108, '..', 972, 2916, 8748, 26244, 78732]
+2
+Incorrect!
+Expected number: 324
+(.venv) PS C:\Users\nexti\Desktop\Uni\3course\2ndHalf\Meth\Laba 1>
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250413163805
+**********************
