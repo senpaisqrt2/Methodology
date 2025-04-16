@@ -15,10 +15,25 @@ def main():
 
     if ChosenGame == 'NOK':
         for n in range(0, 3):
-            NOD.nok()
+            result = NOD.nok()
+            if result['is_correct']:
+                print('Correct!')
+            else:
+                print('Incorrect!')
+                print('Your answer:', result['user_answer'])
+                print(result['user_answer'], 'is wrong answer :( Correct answer is:', result['correct_answer'])
     elif ChosenGame == 'GeomProg':
         for n1 in range(0, 3):
-            GeomProg.geomProg()
+            result = GeomProg.geomProg()
+            if result['is_correct']:
+                print('Correct!')
+            else:
+                print('Incorrect!')
+                print('Your answer:', result['user_answer'])
+                print(result['user_answer'], 'is wrong answer :( Correct answer is:', result['correct_answer'])
+
+        print(f"Game over, {name}!")
+
 
 if __name__ == '__main__':
     main()

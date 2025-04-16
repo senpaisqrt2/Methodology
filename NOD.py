@@ -11,10 +11,8 @@ def nok():
 
     expAnswer = math.lcm(n1, n2, n3)
 
-    if answer == expAnswer:
-        print('Your answer:', answer)
-        print('Correct!')
-
-    elif answer != expAnswer:
-        print('Your answer:', answer)
-        print(answer, 'is wrong answer ;( Correct answer was', expAnswer)
+    return {  # Возвращаем словарь
+        'is_correct': answer == expAnswer,
+        'user_answer': answer,
+        'correct_answer': expAnswer
+    }
