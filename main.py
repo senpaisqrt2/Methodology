@@ -13,24 +13,29 @@ def main():
 
     ChosenGame = input()
 
+    # main.py (обновленная часть)
     if ChosenGame == 'NOK':
         for n in range(0, 3):
             result = NOD.nok()
-            if result['is_correct']:
+            print(result['question'])
+            answer = int(input())
+            if answer == result['correct_answer']:
                 print('Correct!')
             else:
                 print('Incorrect!')
-                print('Your answer:', result['user_answer'])
-                print(result['user_answer'], 'is wrong answer :( Correct answer is:', result['correct_answer'])
+                print('Your answer:', answer)
+                print(answer, 'is wrong answer :( Correct answer is:', result['correct_answer'])
     elif ChosenGame == 'GeomProg':
         for n1 in range(0, 3):
             result = GeomProg.geomProg()
-            if result['is_correct']:
+            print(result['question'])
+            answer = int(input())
+            if answer == result['correct_answer']:
                 print('Correct!')
             else:
                 print('Incorrect!')
-                print('Your answer:', result['user_answer'])
-                print(result['user_answer'], 'is wrong answer :( Correct answer is:', result['correct_answer'])
+                print('Your answer:', answer)
+                print(answer, 'is wrong answer :( Correct answer is:', result['correct_answer'])
 
         print(f"Game over, {name}!")
 

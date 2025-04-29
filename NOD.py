@@ -1,13 +1,15 @@
 def nok():
     import random
     import math
-    print('\nFind the smallest common multiple of given numbers.')
     n1 = random.randint(1, 15)
     n2 = random.randint(1, 15)
     n3 = random.randint(1, 15)
-    print('Question:', n1, n2, n3)
-
-    answer = int(input())
+    question = 'Find the smallest common multiple of given numbers.\nQuestion: ' + f"{n1} {n2} {n3}"
+    expAnswer = math.lcm(n1, n2, n3)
+    return {
+        'question': question,
+        'correct_answer': expAnswer
+    }
 
     expAnswer = math.lcm(n1, n2, n3)
 

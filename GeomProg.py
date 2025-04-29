@@ -9,10 +9,13 @@ def geomProg():
         number_array.append(updated_number * progression_number)
         updated_number *= progression_number
     number_array[blank_number] = '..'
-    print('What number is missing in the progression?')
-    print(number_array)
-    answer = int(input())
+    question = 'What number is missing in the progression?\n' + str(number_array)
     expAnswer = base_number * progression_number ** blank_number
+    return {
+        'question': question,
+        'correct_answer': expAnswer
+    }
+
     return {  # Возвращаем словарь
         'is_correct': answer == expAnswer,
         'user_answer': answer,
